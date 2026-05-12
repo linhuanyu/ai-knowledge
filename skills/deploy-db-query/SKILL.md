@@ -1,3 +1,8 @@
+---
+name: deploy-db-query
+description: Use this skill when a task needs to access the deploy database, query the deploy DB, or connect to the production/deploy MySQL database through the SSH tunnel using DEPLOY_MYSQL_HOST and query_prod_db.py.
+---
+
 # Deploy Database Query Skill
 
 此技能提供透過 SSH Tunnel 存取營運 (Production) 資料庫的標準作業流程。當需要存取 `DEPLOY_MYSQL_HOST` 所指向的資料庫時，必須遵循此規範。
