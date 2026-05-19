@@ -17,7 +17,7 @@
 # 任務管理與延續 (Task Management)
 - **專案任務管理位置**：
   - 專案任務管理放在 `.ai/tasks/{task name}/` 中。
-  - **環境檢查**：專案的 `.gitignore` 應該排除 `.ai/tasks/`，若發現沒有排除，必須主動加上去。
+  - **環境檢查**：專案的 `.gitignore` 必須排除 `.ai/tasks/`，但應包含 `.ai/` 的其他部分（如知識點 `.ai/knowledge/`）。
 - **多步驟計畫**：對於預期超過 1 個步驟的任務，必須建立 Markdown 格式的計畫清單 `plan.md`。
 - **進度追蹤**：每執行一個步驟後，應在計畫檔案或 `current-note.md` 中標記進度。
 - **動態調整**：若執行過程中遇到問題，應先紀錄在 `current-note.md`，並且修正 `plan.md`。
