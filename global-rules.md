@@ -1,10 +1,11 @@
 # Global Personal Memory
 
-- 所有程式都要放在 ~/program 的子目錄中
-
-# 核心偏好
-- **自動技能調用**：當任務符合 `activate_skill` 中列出的技能描述時（如涉及知識管理、軟體開發規範、或特定 Repo 操作等），請直接調用該技能，無需詢問或確認。特別是執行專案初始化或建立/更新根目錄 `GEMINI.md` 時，必須調用 `gemini-init` 技能來整理目錄結構。
-- **唯讀指令靜默執行**：對於不修改檔案系統或系統狀態的指令（如 `ls`, `find`, `grep`, `cat`, `du`, `df`, `env` 等），以及內建讀取工具（如 `list_directory`, `grep_search`, `read_file`, `glob`），請直接執行，無需額外解釋或確認。這類指令不需要我的核准。
+# 規則與工具位置定義
+- **全域規則**：`~/.ai/global-rules.md`
+- **全域 Skills**：`~/.ai/skills/`
+- **全域 Subagent 規則**：`~/.ai/agents/`
+- **專案規則**：`{專案目錄}/.ai/global-rules.md`
+- **專案 Skills**：`{專案目錄}/.ai/skills/`
 
 # 知識管理優先
 - **知識點存放位置**：
